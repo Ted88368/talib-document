@@ -7,6 +7,7 @@ conda create -n talib python=3.10
 conda activate talib
 
 $ pip install TA-Lib
+
 ```
 
 Or checkout the sources and run ``setup.py`` yourself:
@@ -31,6 +32,13 @@ compilation terminated.
 #### Windows
 Download [ta-lib-0.4.0-msvc.zip](http://prdownloads.sourceforge.net/ta-lib/ta-lib-0.4.0-msvc.zip)
 and unzip to ``C:\ta-lib``
+
+
+#### OSX
+```
+arch -arm64 brew install ta-lib
+pip install TA-Lib
+```
 
 #### Linux && OSX
 Download [ta-lib-0.6.4-src.tar.gz](https://github.com/ta-lib/ta-lib/releases/tag/v0.6.4) and:
