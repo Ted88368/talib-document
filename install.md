@@ -27,10 +27,6 @@ compilation terminated.
 使用Python的TA库，你需要有安装底层库文件：[下载TA-Lib底层库文件](http://ta-lib.org/hdr_dw.md)
 
 #### 安装底层库文件方法
-#### Mac OS X
-```
-$ brew install ta-lib
-```
 
 #### Windows
 Download [ta-lib-0.4.0-msvc.zip](http://prdownloads.sourceforge.net/ta-lib/ta-lib-0.4.0-msvc.zip)
@@ -41,8 +37,10 @@ Download [ta-lib-0.6.4-src.tar.gz](https://github.com/ta-lib/ta-lib/releases/tag
 ```
 $ untar and cd
 $ ./configure --prefix=/usr
-$ make
+$ make -j8
 $ sudo make install
+
+pip install TA-Lib
 ```
 
 > If you build ``TA-Lib`` using ``make -jX`` it will fail but that's OK!
@@ -50,3 +48,7 @@ $ sudo make install
 
 [文档 ](doc_index.md)
 [下一章: Using the Function API](func.md)
+
+
+#### 参考资料
++ [《m1 Mac安装talib库》](https://zhuanlan.zhihu.com/p/518830644)
