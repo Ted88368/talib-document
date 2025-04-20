@@ -3,6 +3,9 @@
 使用pip安装 PyPI:
 
 ```
+conda create -n talib python=3.10
+conda activate talib
+
 $ pip install TA-Lib
 ```
 
@@ -33,8 +36,8 @@ $ brew install ta-lib
 Download [ta-lib-0.4.0-msvc.zip](http://prdownloads.sourceforge.net/ta-lib/ta-lib-0.4.0-msvc.zip)
 and unzip to ``C:\ta-lib``
 
-#### Linux
-Download [ta-lib-0.4.0-src.tar.gz](http://prdownloads.sourceforge.net/ta-lib/ta-lib-0.4.0-src.tar.gz) and:
+#### Linux && OSX
+Download [ta-lib-0.6.4-src.tar.gz](https://github.com/ta-lib/ta-lib/releases/tag/v0.6.4) and:
 ```
 $ untar and cd
 $ ./configure --prefix=/usr
